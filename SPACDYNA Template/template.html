@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./template.css">
+    <title>Space Dynamic</title>
+</head>
+<body>
+
+    <!-- Start Menu -->
+
+    <section class="menu-bar">
+
+        
+        <div class="container">
+        <nav>
+            <div class="logo">
+               <h4> SPAC<span>DYNA</span> </h4> 
+            </div>
+            <ul>
+                <li><a href=#home>Home</a></li>
+                <li><a href=#about>About Us</a></li>
+                <li><a href=#services>Services</a></li>
+                <li><a href=#portfolio>Portfolio</a></li>
+                <li><a href=#blog>Blog</a></li>
+                <li><a href=#message>Message Us</a></li>
+            </ul>
+
+            <button class="contact-button">Contact Now</button>
+
+            <div class="menu-trigger" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            
+              <script>
+              function myFunction(x) {
+                x.classList.toggle("change");
+                const navMenu = document.querySelector('.container-bar nav ul');
+  navMenu.classList.toggle('active');
+              }
+              </script>
+
+          
+            
+        </nav>
+    </div>
+    </section>
+
+    <section class="home-page" id="home">
+
+        <div class="container-home">
+
+            <div class="left-column">
+                <h4>Welcome to Space Dynamic </h4>
+                <h1>we make <span>digital ideas</span> & <span1>SEO</span1> marketing</h1>
+                <p>Space Dynamic is a professional looking HTML template using a Bootstrap 5 (beta 2). 
+                    This CSS template is free for you provided by <a href="https://templatemo.com/page/1">TemplateMo</a>.</p>
+
+                    <form>
+
+                    <input type="text"  placeholder="Your website URL..." required>
+
+                    <button type="submit" class="submit-button">analyze site</button>
+
+                </form>
+
+            </div>
+
+            <div class="right-column">
+
+                <img src="./images/Screenshot_2025-10-23_124028-removebg-preview.png">
+
+            </div>
+        </div>
+    </section>
+
+       <!-- Start About section -->
+
+       <section class="about" id="about">
+
+        <div class="container">
+            <img src="./images/about-left-image.png">
+
+        </div>
+
+        <div class="column">
+
+        <div class="about-block">
+
+        
+            <div class="block">
+                <div class="icon">
+                    <img src="./images/service-icon-01.png">
+                </div>
+                <div class="text">
+                <h3>Data Analysis </h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente id ipsa aliquam </p>
+                </div>
+
+            </div>
+            <div class="block">
+
+                <div class="icon">
+                    <img src="./images/service-icon-02.png">
+                </div>
+                <div class="text">
+                    <h3>Data Reporting                    </h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fuga dignissimos temporibus iste</p> 
+                </div>
+
+            </div>
+            <div class="block">
+
+                <div class="icon">
+                    <img src="./images/service-icon-03.png">
+                </div>
+                <div class="text">
+                    <h3>Web Analytics </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, maiores reprehenderit </p>
+                </div>
+
+            </div>
+            <div class="block">
+
+                <div class="icon">
+                    <img src="./images/service-icon-04.png">
+                </div>
+                <div class="text">
+                    <h3>SEO Suggestions </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate cumque corporis </p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+</section>    
+</body>
+</html>
